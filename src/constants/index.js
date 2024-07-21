@@ -3,26 +3,34 @@ import {
   backend,
   creator,
   web,
+  java,
   javascript,
   typescript,
   html,
   css,
   reactjs,
   redux,
+  bootstrap,
   tailwind,
   nodejs,
   mongodb,
+  mysql,
   git,
+  github,
+  github2,
   figma,
   docker,
   meta,
   starbucks,
   tesla,
   shopify,
-  carrent,
+  squirrel_infotech,
+  petme,
   jobit,
-  tripguide,
+  
   threejs,
+  portfolio
+  
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +50,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Web Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +62,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Software Developer",
     icon: creator,
   },
 ];
@@ -73,21 +81,28 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  
+  
+  /*{
+    name: "TypeScript",
+    icon: typescript,
+  }*/,
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  /*{
+    name: "Redux Toolkit",
+    icon: redux,
+  }*/,
+ 
   {
     name: "Node JS",
     icon: nodejs,
@@ -95,6 +110,10 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
   {
     name: "Three JS",
@@ -105,109 +124,62 @@ const technologies = [
     icon: git,
   },
   {
+    name: "Github",
+    icon: github2,
+  },
+  {
     name: "figma",
     icon: figma,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  /*{
     name: "docker",
     icon: docker,
-  },
+  }*/,
 ];
 
 const experiences = [
+ 
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "C#.NET Trainee Intern ",
+    company_name: "Squirrel's Infotech, Satara ",
+    icon: squirrel_infotech,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "	Mastered C# basics.",
+      "	Created a student-friendly MCQ Exam System to demonstrate C# skills.",
+      
+,
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, iure.",
+    name: "Arbaj Sayyad",
+    designation: "Product Engineer",
+    company: "IKS",
+    image: "",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pet Me",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a comprehensive pet adoption platform using the MERN stack and Tailwind CSS, featuring user authentication, profile management, advance searching, secure messaging, Razorpay payment integration. ",
     tags: [
+      
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
+        name: "Mern Stack",
         color: "green-text-gradient",
       },
       {
@@ -215,8 +187,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: petme,
+    source_code_link: "https://github.com/aayansayyad192004/petme_mern_project",
+    demo_link: "https://petme-mern-project.onrender.com/",
   },
   {
     name: "Job IT",
@@ -240,24 +213,24 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a dynamic portfolio using React.js and Three.js, showcasing skills and projects with 3D models and animations. Integrated Email.js for direct communication through a Contact Me section.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Email.js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: portfolio,
     source_code_link: "https://github.com/",
   },
 ];

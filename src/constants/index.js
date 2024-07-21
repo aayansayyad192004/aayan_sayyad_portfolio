@@ -27,7 +27,7 @@ import {
   squirrel_infotech,
   petme,
   jobit,
-  
+  demo,
   threejs,
   portfolio
   
@@ -233,6 +233,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/",
+    demo_link: "https://aayansayyadportfolio-iq9zl4mzs-aayan-sayyads-projects.vercel.app/"
   },
 ];
 

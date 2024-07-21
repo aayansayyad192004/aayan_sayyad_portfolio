@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { Tilt } from 'react-tilt';
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";

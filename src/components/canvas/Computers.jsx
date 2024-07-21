@@ -14,7 +14,7 @@ const Computers = ({ isMobile }) => {
         position={[-20, 10, 10]}
         angle={0.52}
         penumbra={1}
-        intensity={4.1}
+        intensity={3.1}
         castShadow
         shadow-mapSize={1024}
       />

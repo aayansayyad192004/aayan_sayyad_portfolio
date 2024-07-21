@@ -127,14 +127,15 @@ const technologies = [
     name: "Github",
     icon: github2,
   },
-  {
+ /* {
     name: "figma",
     icon: figma,
-  },
+  },*/
   {
     name: "Java",
     icon: java,
   },
+
   /*{
     name: "docker",
     icon: docker,

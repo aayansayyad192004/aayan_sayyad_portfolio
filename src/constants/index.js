@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/aayansayyad192004/aayan_sayyad_portfolio",
+    source_code_link: "https://github.com/",
   },
   {
     name: "Portfolio Website",

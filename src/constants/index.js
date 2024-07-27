@@ -232,7 +232,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/aayansayyad192004/aayan_sayyad_portfolio",
     demo_link: "https://aayansayyadportfolio-iq9zl4mzs-aayan-sayyads-projects.vercel.app/"
   },
 ];

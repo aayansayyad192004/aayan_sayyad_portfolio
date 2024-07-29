@@ -35,6 +35,7 @@ import squirrel_infotech from "./company/squirrel_infotech1.png";
 import petme from "./petme.png"
 import jobit from "./jobit.png"
 import portfolio from "./portfolio.png";
+import visionai_project from "./visionai_project.png"
 
 export {
   java,
@@ -71,5 +72,6 @@ export {
   petme,
   jobit,
   squirrel_infotech,
-  portfolio
+  portfolio,
+  visionai_project
 };

@@ -26,10 +26,10 @@ import {
   shopify,
   squirrel_infotech,
   petme,
-  jobit,
   demo,
   threejs,
-  portfolio
+  portfolio,
+  visionai_project
   
 } from "../assets";
 
@@ -193,27 +193,6 @@ const projects = [
     demo_link: "https://petme-mern-project.onrender.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "",
-  },
-  {
     name: "Portfolio Website",
     description:
       "Developed a dynamic portfolio using React.js and Three.js, showcasing skills and projects with 3D models and animations. Integrated Email.js for direct communication through a Contact Me section.",
@@ -234,6 +213,32 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/aayansayyad192004/aayan_sayyad_portfolio",
     demo_link: "https://aayansayyadportfolio-iq9zl4mzs-aayan-sayyads-projects.vercel.app/"
+  },
+  {
+    name: "VisionAI Image Generator",
+    description:
+      "Developed a responsive website using HTML, CSS, and JavaScript to generate AI images from user prompts. Integrated Pexels API for real-time image fetching and optimized performance with efficient input handling.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Pexels API",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: visionai_project,
+    source_code_link: "https://github.com/aayansayyad192004/visionai_image_generator",
+    demo_link: "https://vision-ai-image-generator.netlify.app/",
   },
 ];
 
